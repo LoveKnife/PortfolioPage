@@ -1,0 +1,46 @@
+header{
+  background: black;
+  color: white;
+  padding: 10px;
+  font-family: monospace;
+}
+
+main{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+  margin: 0 auto;
+}
+
+ul{
+  text-align: left;
+}
+
+ol{
+  text-align: left;
+}
+
+footer{
+  background: black;
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+}
+
+h1{
+  font-size:30px;
+}
+
+h2{
+  font-size:15px;
+}
+
+.piccontainer{
+  margin: 0 auto;
+}
+.pic{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 25%;
+}
