@@ -1,3 +1,4 @@
+/*top black bar of the page*/
 header{
   background: black;
   color: white;
@@ -5,6 +6,7 @@ header{
   font-family: monospace;
 }
 
+/*making everything have the same font and centering it on the screen*/
 section{
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
@@ -20,6 +22,7 @@ ol{
   text-align: left;
 }
 
+/*black bar at the bottom of the page*/
 footer{
   background: black;
   color: white;
@@ -35,6 +38,7 @@ h2{
   font-size:15px;
 }
 
+/*container for picture to keep it centered*/
 .piccontainer{
   margin: 0 auto;
 }
@@ -45,3 +49,15 @@ h2{
   max-width: 25%;
 }
 
+/*link pseudo classes*/
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: aquamarine;
+}
+
+a:hover {
+  color: blue;
+}
